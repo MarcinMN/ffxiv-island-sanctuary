@@ -1,4 +1,5 @@
 import { Grid, GridItem, Show } from "@chakra-ui/react";
+import ResourceSelector from "./components/ResourceSelector";
 
 function App() {
   return (
@@ -17,7 +18,7 @@ function App() {
       </GridItem>
       <Show above="lg">
         <GridItem area="aside" backgroundColor="blue.500">
-          Aside
+          <ResourceSelector />
         </GridItem>
       </Show>
       <GridItem area="main" backgroundColor="red.500">
