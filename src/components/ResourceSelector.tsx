@@ -2,7 +2,11 @@ import { Checkbox, CheckboxGroup, SimpleGrid } from "@chakra-ui/react";
 
 const ResourceSelector = () => {
   return (
-    <CheckboxGroup>
+    <CheckboxGroup
+      onChange={(value) => {
+        console.log(value);
+      }}
+    >
       <SimpleGrid columns={2} spacing={2} padding="20px">
         <Checkbox value="Island Apple">Apple</Checkbox>
         <Checkbox value="Island Beehive Chips">Beehive Chips</Checkbox>
