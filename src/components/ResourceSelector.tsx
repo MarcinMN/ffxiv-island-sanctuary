@@ -14,10 +14,15 @@ const ResourceSelector = () => {
         <Checkbox value="Island Cabbage Seeds">Cabbage Seeds</Checkbox>
         <Checkbox value="Island Clam">Clam</Checkbox>
         <Checkbox value="Island Clay">Clay</Checkbox>
+        <Checkbox value="Island Coal">Coal</Checkbox>
         <Checkbox value="Island Coconut">Coconut</Checkbox>
         <Checkbox value="Island Copper Ore">Copper Ore</Checkbox>
         <Checkbox value="Island Coral">Coral</Checkbox>
         <Checkbox value="Island Cotton Boll">Cotton Boll</Checkbox>
+        <Checkbox value="Island Effervescent Water">
+          Effervescent Water
+        </Checkbox>
+        <Checkbox value="Island Glimshroom">Glimshroom</Checkbox>
         <Checkbox value="Island Hemp">Hemp</Checkbox>
         <Checkbox value="Island Iron Ore">Iron Ore</Checkbox>
         <Checkbox value="Islefish">Islefish</Checkbox>
