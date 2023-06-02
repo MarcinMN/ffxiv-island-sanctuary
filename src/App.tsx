@@ -1,5 +1,6 @@
 import { Grid, GridItem, Show } from "@chakra-ui/react";
 import ResourceSelector from "./components/ResourceSelector";
+import MapDisplay from "./components/MapDisplay";
 
 function App() {
   return (
@@ -22,7 +23,7 @@ function App() {
         </GridItem>
       </Show>
       <GridItem area="main" backgroundColor="red.500">
-        Main
+        <MapDisplay />
       </GridItem>
     </Grid>
   );
